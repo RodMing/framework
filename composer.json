@@ -1,5 +1,14 @@
 {
     "require": {
-            "mnapoli/php-di": "~4.0"
-        }
+        "mnapoli/php-di": "~4.4",
+        "filp/whoops": "~1.1",
+        "swiftmailer/swiftmailer": "~5.4",
+        "mustache/mustache": "~2.8",
+        "phpspec/phpspec": "~2.0",
+        "monolog/monolog": "~1.13"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}}
 }
